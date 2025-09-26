@@ -528,9 +528,10 @@ function RPN(input){
             output.push(token.slice(-1) == '.' ? token.slice(0,-1) : token);//末尾が . なら削除
 
         // 演算子の場合
-        }else if(){
-            
         }
+        //else if(){
+            
+        //}
         
         
         
@@ -623,6 +624,7 @@ function round(num, digits) {
   const factor = Math.pow(10, digits);
   return Math.round(num * factor) / factor;
 }
+
 
 
 
