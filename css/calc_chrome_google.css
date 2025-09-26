@@ -1,0 +1,116 @@
+/* �{�^����{��� */
+button
+{
+    width: 100px;
+    height: 50px;
+    font-size: 24px;
+    /* ����ŉ~�`�ɂł��� */
+    border-radius: 5%;
+    margin: 5px;
+    /* �g���͌����Ȃ��悤�ɂ��� */
+    border: solid 0px #000000;
+}
+
+/* ���C���G���A��� */
+#mainArea 
+{
+    text-align:center;
+    margin: 10px;
+    border: #FFF solid 5px;
+    background-color: #FFF;
+    width:500px;
+    /* ���E�͒����񂹂ɂȂ�悤�ɐݒ� */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* �v�Z�ߒ��\���G���A */
+#inpFormula
+{
+    /* ���͕s�Ƃ��� */
+    pointer-events: none;
+    width:440px;
+    height: 20px;
+    font-size: 18px;
+    text-align: right;
+    color: #000;
+    background-color: #FFF;
+    border: solid 0px #000000;
+}
+
+/* �v�Z�ߒ��ێ��G���A */
+#inpCalc
+{
+    /* ��\���Ƃ��� */
+    display: none;
+    /* ���͕s�Ƃ��� */
+    pointer-events: none;
+    width:440px;
+    height: 20px;
+    font-size: 18px;
+    text-align: right;
+    color: #000;
+    background-color: #FFF;
+    border: solid 0px #000000;
+}
+
+/* ���Z�q�\���G���A */
+#inpOperator
+{
+    /* ���͕s�Ƃ��� */
+    pointer-events: none;
+    width:40px;
+    font-size: 36px;
+    text-align: right;
+    color: #000;
+    background-color: #FFF;
+    border: solid 0px #000000;
+}
+
+/* ���̓G���A */
+#inpMain
+{
+    /* ���͕s�Ƃ��� */
+    pointer-events: none;
+    width:400px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 72px;
+    text-align: right;
+    color: #000;
+    background-color: #FFF;
+    border: solid 0px #000000;
+}
+/*        font-family: "�l�r �S�V�b�N"; */
+
+
+/* ���l�{�^���ʏ�� */
+#btnNumber
+{
+    color: #000;
+    background-color: #cce0fc;
+}
+
+/* ���Z�q�{�^���ʏ�� */
+#btnOperator
+{
+    color: #000;
+    background-color: #dadce0;
+}
+
+/* �{�^���ʏ��i�C�R�[���{�^���p�j */
+#btnCalc
+{
+    color: #FFF;
+    background-color: #4285f4;
+}
+
+/* �\���ؑփ{�^���ʏ�� */
+#btnPage
+{
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    margin: 0px;
+}
+
